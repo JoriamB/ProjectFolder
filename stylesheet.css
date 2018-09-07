@@ -121,7 +121,7 @@ tr.total-ec {
 }
 
 h2 {
-    color: orange;
+    color: deeppink;
 }
 
 .about-image {
@@ -134,4 +134,8 @@ h2 {
 
 .about-list {
     margin-top: 3%;
+}
+
+.nbsa-ec h3 {
+    color: deeppink;
 }
