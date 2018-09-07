@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link href="stylesheet.css" rel="stylesheet">
+    <link href="includes/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Dashboard</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Joriam Bruggeman</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Over</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="dashboard.html">Dashboard</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main role="main">
+
+    <div id="header" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide" src="Images/header-dashboard.jpg" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <h1>Dashboard</h1>
+                        <p>Studiemonitor & belangrijke links</p>
+                        <p><a class="btn disabled btn-lg btn-primary" style="background-color: orange; border: 0.5px solid white;" href="contact.html" role="button">Contact</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <H1 style="color: #959595;">Studiemonitor</H1>
+<table>
+    <tr>
+        <th>Blok 1</th>
+        <th>Blok 2</th>
+        <th>Blok 3</th>
+        <th>Blok 4</th>
+    </tr>
+    <tr>
+        <td>Opldeidings- en beroepsoriëntatie<br>2,5 EC</td>
+        <td>Professional skills 1<br>Portfolio 70%<br>Assessment 30%<br>2,5 EC</td>
+        <td>Professional skills 2<br>50% toets 1<br>50% toets 2<br>2,5 EC</td>
+        <td>Professional skills 3<br>50% toets 1<br>50% toets 2<br>2,5 EC</td>
+    </tr>
+    <tr>
+        <td>Computer science basics<br>7,5 EC</td>
+        <td>HZ Personality 2a<br>2,5 EC</td>
+        <td>Professionele werkplek<br>2,5 EC</td>
+        <td>IT Personality 2a<br>2,5 EC</td>
+    </tr>
+    <tr>
+        <td>Programming basics<br>5 EC</td>
+        <td>Object-oriented development 1<br>50% casustoets<br>50% groepsopdracht<br>10 EC</td>
+        <td>Framework development 1<br>5 EC</td>
+        <td>Framewoprk development 2<br>5 EC</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Framework project 1<br>5 EC</td>
+        <td>Framework project 2<br>5 EC</td>
+    </tr>
+    <tr class="total-ec">
+        <td>Totaal behaald<br>0/15</td>
+        <td>Totaal behaald<br>0/15</td>
+        <td>Totaal behaald<br>0/15</td>
+        <td>Totaal behaald<br>0/15</td>
+    </tr>
+</table>
+</div>
+<div class="progress-container">
+    <div class="box">
+<div class="w3-container">
+    <div class="current-ec">
+        <h3>Behaalde EC's</h3>
+        <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:8%">0 EC</div>
+        </div>
+    </div>
+    <div class="nbsa-ec">
+        <h3>NBSA</h3>
+        <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:75%">NBSA 45 EC</div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+<div class="border-line">
+
+</div>
+
+<div class="related-links">
+    <a href="https://hz-hbo-ict.slack.com"> <p>Slack</p>
+    <img border="0" alt="Slack" src="Images/slack-img.dms" width="100" height="100">
+    <a href="https://github.com/HZ-HBO-ICT"><p> GitHub</p>
+    <img border="0" alt="GitHub" src="Images/github-img.png" width="100" height="100">
+    <a href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf"><p>OER</p>
+    <img border="0" alt="OER" src="Images/oer-img.jpg" width="100" height="100">
+    <a href="includes/Uitvoeringsregeling%202018–2019%20HBO-ICT%20voltijd%20v2.0.pdf"><p>UR</p>
+    <img border="0" alt="UR" src="Images/ur-img.jpg" width="100" height="100">
+    <a href="https://learn.hz.nl"><p> Learn HZ </p>
+    <img border="0" alt="Learn HZ" src="Images/learn-img.jpg" width="150" height="100">
+    <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus"><p> MyHZ</p>
+    <img border="0" alt="MyHZ" src="Images/hz-img.png" width="300" height="100">
+</a>
+</div>
+    <footer class="container">
+        <p class="float-right"><a href="index.html">Back to top</a></p>
+        <p>&copy; 2017-2018 Joriam Bruggeman &middot; <a href="https://www.hz.nl">Education project</a> &middot; <a href="https://www.linkedin.com/in/joriam-bruggeman-787004140">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
