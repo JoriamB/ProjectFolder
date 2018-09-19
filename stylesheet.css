@@ -96,7 +96,14 @@ tr.total-ec {
     margin-top: 6%;
     margin-bottom: 6%;
 }
+.motivation-box{
+    padding-left: 15%;
+    padding-right: 15%;
+}
 
+.motivation {
+    padding: 12%;
+}
 .intro h1 {
     color: black;
 }
@@ -121,7 +128,7 @@ tr.total-ec {
 }
 
 h2 {
-    color: deeppink;
+    color: orange;
 }
 
 .about-image {
@@ -137,5 +144,5 @@ h2 {
 }
 
 .nbsa-ec h3 {
-    color: deeppink;
+    color: orange;
 }
